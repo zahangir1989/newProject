@@ -1,0 +1,214 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+
+}
+.continer{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+#hero{
+    background-image: url(img/banner1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.hero-wapper{
+    margin-left: 50%;
+    top: 50%;
+}
+.hero-wapper h1{
+    font-size: 40px;
+    font-weight: 800;
+    padding: 0 0 40px 0;
+}
+.hero-wapper p{
+    font-size: 17px;
+    font-weight: 500;
+    padding: 0 0 40px 0;
+}
+.hero-wapper button{
+    font-size: 19px;
+    font-weight: 700;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    background: #f25b22;
+}
+#ideas{
+    padding: 100px 0;
+}
+.ideas-wapper{
+    padding: 0 50px;
+    display: flex;
+   gap: 100px;
+    align-items: center;
+
+}
+.ideas-wapper img{
+    width: 400px;
+}
+.text-wapper h2{
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 15px;
+
+}
+.text-wapper p{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 25px;
+
+}
+.text-wapper ul{
+   list-style: none;
+}
+.text-wapper ul li{
+     margin: 15px 0 ;
+     font-size: 18px;
+}
+.text-wapper ul li i{
+    margin-right: 10px;
+     color: aqua;
+     font-size: 18px;
+}
+#my-plan{
+    padding: 0 0 100px 0;
+
+}
+.plan-wapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 150px;
+}
+.my-plan-wapper h1{
+    font-size: 30px;
+    font-weight: 700;
+    padding: 0 0 70px 0;
+    text-align: center;
+}
+.palan-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+}
+.palan-box img{
+  width: 114px;
+}
+.palan-box h3{
+  font-size: 20px;
+}
+.palan-box p{
+  font-size: 16px;
+}
+#banner{
+    padding: 0 0 80px 0;
+}
+.banner-eapper{
+    position: relative;
+    background-image: url(img/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    height: 300px;
+    border-radius: 10px;
+}
+#banner img{
+    position: absolute;
+    z-index: -1;
+    border-radius: 10px;
+}
+.banner-text {
+    margin: 70px 0 0 59px;
+    position: absolute;
+}
+.banner-text h2{
+  font-size: 27px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #fff;
+}
+.banner-text button{
+  font-size: 17px;
+  font-weight: 700;
+  padding: 10px;
+color: #f25b22;
+  border: none;
+  border-radius: 5px;
+
+}
+#footer{
+    background-color: #151414;
+    color: #fff;
+}
+.footer-wapper{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-left{
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    padding: 80px 20px;
+}
+.footer-left h1{
+    font-size: 35px;
+}
+.footer-left p{
+    font-size: 18px;
+}
+.footer-left ul{
+    list-style: none;
+}
+.footer-left ul li{
+    font-size: 18px;
+    margin: 10px 0 0 0;
+}
+.icon img{
+  width: 50px;
+  margin-left: 20px;
+}
+.icon img:first-child{
+  width: 50px;
+  margin-left: 0px;
+}
+.footer-right{
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    padding: 80px 20px;
+}
+.footer-right h4{
+  font-size: 20px;
+}
+.footer-right input{
+  font-size: 14px;
+  padding: 10px 20px 10px 20px;
+  color: #fff;
+  background: #151414;
+  outline: none;
+  border: 1px solid #fff;
+  border-radius: 5px;
+
+}
+.footer-right button{
+    width: 112px;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 10px;
+  color: #f25b22;
+    border: none;
+    border-radius: 5px;
+  
+  }
